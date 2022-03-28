@@ -12,7 +12,7 @@ Following a fun-filled trip to New York City with our friend Kate where we used 
 
 ![Basic Information](https://github.com/Jeffstr00/Bikesharing/blob/main/Resources/image1_info.png)
 
-While NYC CitiBike totalled 1.86 million rides in August 2019, you can't expect to achieve the same success in Des Moines.  Given that NYC's population is roughly forty times that of Des Moines, an optimistic projection (if you could get Des Moines people to ride at the same rate of NYC people) for Des Moines would be around 46,000.
+While NYC CitiBike totalled 1.86 million rides in August 2019, you can't expect to achieve the same success in Des Moines.  Given that NYC's population is roughly forty times that of Des Moines, an optimistic projection (if you could get Des Moines people to ride at the same rate of NYC people) for Des Moines would be around 46,000 rides per month.
 
 Looking at the gender breakdown in NYC, males ride almost 2.5 times as much as females do (1.2 million vs 47k).  This could either mean that men are simply your target market that you should focus most of your efforts on or that you have a largely untapped market with women if you are able to get them to ride more often.
 
@@ -52,7 +52,7 @@ When you look at the checkout times and break it down by gender, there doesn't s
 
 ![Trips by Weekday per Hour](https://github.com/Jeffstr00/Bikesharing/blob/main/Resources/image7_tripshour.png)
 
-Regardless of day, activity is very low across the board from about 9pm - 5am.  While activity picks up during the other hours, it varies depending on if it is a weekday or the weekend.  On weekdays, traffic gets especially high between 8-9am and 5-7pm, when people typically travel to work.  However, on the weekends, the traffic is more spread throughout the day, when people are more likely to be travelling for leaisure than the more structured workday.
+Regardless of day, activity is very low across the board from about 9pm - 5am.  While activity picks up during the other hours, it varies depending on if it is a weekday or the weekend.  On weekdays, traffic gets especially high between 8-9am and 5-7pm, when people typically travel to work.  However, on the weekends, the traffic is more evenly spread throughout the day, when people are more likely to be travelling for leisure compared to the more structured workday.
 
 ### Trips by Gender
 
@@ -87,14 +87,14 @@ Similar to the last chart, this clearly shows which bikes have seen the most use
 ## Summary
 
 Overall, data provided us with a lot of valuable information:
-* Men ride approximately 2.5 times as often as women do (again, this could either be a sign of our target market or it could be an opportunity).
+* Men ride approximately 2.5 times as often as women do (again, this could either be a sign of our target market or it could represent an opportunity).
 * Activity is highest where population is also as its highest, and starting locations seem to be pretty much in sync with ending locations.
 * Younger people take longer rides than older people do.
 * Regardless of gender, the vast majority of trips are very brief (under forty minutes), with most being even closer to the five-minute mark.
-* Activity is very low between the hours of 10pm-5am, but they pick up during the day.  On weekends, the traffic is more even distributed, while during the weekday, there are bigger spikes around 8/9am and 5-7pm when people need to travel for work.
+* Activity is very low between the hours of 10pm-5am, but they pick up during the day.  On weekends, the traffic is more evenly distributed, while during the weekday, there are bigger spikes around 8/9am and 5-7pm when people need to travel for work.
 * Some bikes see much more use than other ones, so they will likely need more maintenance (and/or the bikes should be rotated).
 
-However, even more useful information could be gleaned from further ventures into the dataset and asking new questions:
-* Similar to how we looked at it by gender, does rider age impact when they ride?  For instance, are younger riders taking bikes out earlier (when they go into work) and older riders later (as they do their daily activities)?  If so, we might be able to focus in on the older group.  If we can attract more riders there, we could then somewhat even out our rides at different times in the day.
-* Are any stations routinely seeing more departures than arrivals (and visa versa)?  Whenever this happens, we would need to manually move the bikes ourselves, which would use up resources.  Maybe it would be possible to get our customers to do this for us by offering bonuses or discounts if they bring a bike to a station in need rather than one at capacity.
+However, even more useful information could be gleaned from further ventures into the dataset and asking additional questions:
+* Similar to how we looked at it by gender, does rider age impact when they ride?  For instance, are younger riders taking bikes out earlier (when they go into work) and older riders later (as they do their daily activities)?  If so, we might be able to focus in on the older group.  If we can attract more riders there, we could then somewhat smooth out our rides throughout the day.
+* Are any stations routinely seeing more departures than arrivals (and visa versa)?  Whenever this happens, we would need to manually move the bikes ourselves, which would use up resources.  Maybe it would be possible to get our customers to do this for us by offering bonuses or discounts if they bring a bike to a station in need rather than to one already at capacity.
 * Do certain stations tend to favor riders of particular ages?  If we notice that a certain station attracts a particularly young or old crowd, either way, we might need to change the radio station that we play there....
